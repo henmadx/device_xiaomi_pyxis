@@ -4,15 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
+
+EXTRA_FOD_ANIMATIONS := true
 
 # Inherit from pyxis device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := pyxis
-PRODUCT_NAME := arrow_pyxis
+PRODUCT_NAME := du_pyxis
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 

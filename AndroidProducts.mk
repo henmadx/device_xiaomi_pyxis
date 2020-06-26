@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_pyxis.mk
+    $(LOCAL_DIR)/du_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_pyxis-eng \
-    arrow_pyxis-userdebug \
-    arrow_pyxis-user
+    du_pyxis-eng \
+    du_pyxis-userdebug \
+    du_pyxis-user
 
