@@ -490,6 +490,7 @@ vendor/lib/libApeSwDec.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libFaceGrade.so
+vendor/lib/libfastcvopt.so
 vendor/lib/libFileMux_proprietary.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libGPreqcancel.so
